@@ -1,0 +1,30 @@
+.header{
+   display: flex;
+   margin: 50px 390px 25px 389px;
+   justify-content: space-between;
+}
+.header-item{
+    display: flex;
+}
+.header-logo{
+    background-image: url(../img/logo.svg);
+    height: 30px;
+    width: 97px;
+}
+.header-nav{
+    list-style-type: none;
+    display: flex;
+    gap: 54px;
+    padding-left: 92px;
+    
+}
+.header-nav a{
+    text-decoration: none;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
