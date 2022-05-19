@@ -1,10 +1,15 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+/*hedaer style*/
 .header{
    display: flex;
    margin: 50px 390px 25px 389px;
-   justify-content: space-between;
+   width: 1141px;
 }
 .header-item{
     display: flex;
+    align-items: center;
 }
 .header-logo{
     background-image: url(../img/logo.svg);
@@ -12,19 +17,34 @@
     width: 97px;
 }
 .header-nav{
+    font-weight: 400;
+    font-size: 18px;
     list-style-type: none;
     display: flex;
     gap: 54px;
     padding-left: 92px;
+    padding-right: 392px;
     
 }
 .header-nav a{
     text-decoration: none;
 }
-.button{
-    background-color: transparent;
-    border: none;
+.socialmedia{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+.insta{
+    background-image: url(../img/instagram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 30px;
     width: 30px;
 }
-
+.fb{
+    background-image: url(../img/facebook.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
