@@ -48,3 +48,37 @@ body{
     height: 30px;
     width: 30px;
 }
+/*"banner style*/
+.banner-container{
+    width: 1326px;
+    margin-left: 389px;
+    display: flex;
+}
+.banner-visual{
+    display: flex;
+    gap: 20px;
+    padding-left: 425px;
+
+}
+.banner-visual-left{
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253,249,182,0.45)145.23%);
+    width: 535px;
+    height: 850px;
+    opacity: 0.2;
+   
+}
+
+.banner-visual-right{
+    background: linear-gradient(90deg, #FDF9B6 0%, rgba(253,249,182,0.7)166.81%);
+    width: 235px;
+    height: 850px;
+    opacity: 0.2;
+    
+}
+.banner-visual-img{
+    background-image: url(../img/girl.jpg);
+    width: 936px;
+    height: 930px;
+    background-repeat: no-repeat;
+  
+}
